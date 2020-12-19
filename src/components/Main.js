@@ -28,29 +28,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Makan Janani is a Web Application developer from Toronto, ON, and is currently working on developing his new project
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          Throughout his recent project in developing a cost management webiste, Makan has found himself quite passionate about 
+          Agile software development and programming in general. He enjoys developing websites and applications
+           with JavaScript, but he believes in always picking the right tool for the job. He is particularly passionate
+            about the intersections of Optimization domain, productivity, and computing.
+          </p>
+          <p>
+          Apart from his professional ambitions and interests, Makan has been always working on expanding his knowledge whenever is needed. 
+          He is eager to learn new techs no matter what.
           </p>
           {close}
         </article>
@@ -66,21 +59,34 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <p><a href="software-projects" style={{ textDecoration: `underline` }}><h1>Website</h1></a></p>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          I have always been interested in the fast-growing world of software development and data science. The Covid-19 situation gave me a chance to expand my knowledge in this domain and improve my skills. 
+          I used this opportunity to develop a web application from A to Z for analyzing my everyday expenses. It took three months to develop this application from scratch.
+           The application uses a modern micro-service infrastructure and has been deployed on a cloud-based linux machine. It helps in managing and analyzing my monthly budget and spending habits. 
+           I hope this to become a good momentum for me to continue surrounding myself with interesting technologies and work towards coordinating/implementing technological solutions. The used technologies are as follows:
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <li>
+          Back-end: Python, Django, RESTful API
+          </li>
+          <li>
+          Front-end: JS, Gatsby, React, Material UI
+          </li>
+          <li>
+          Software Deployment Technologies: Docker, docker-compose
+          </li>
+          <li>
+          Data Analysis: Pandas, PostgresSQL
+          </li>
+          <li>
+          OS: MacOS, Linux, Ubuntu
+          </li>
+           
+         
+        
+          
+
+         
           {close}
         </article>
 
@@ -107,15 +113,10 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
+        
+        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -129,41 +130,17 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
+              <li><input type="submit" value="Send Message" className="special" /></li>
+              <li><input type="reset" value="Reset" /></li>
             </ul>
-          </form>
+          </form> */}
+          <p>Please reach out to Makan if you are interested in his work.</p>
           <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
+            <li><a href="https://www.linkedin.com/in/makan-janani-b3629768/"  className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://bitbucket.org/korosh12/"  className="icon fa-bitbucket"><span className="label">Bitbucket</span></a></li>
+            <li><a href="https://github.com/makan12/"  className="icon fa-github"><span className="label">GitHub</span></a></li>
+            {/* <li><a href="makan.janani@gmail.com" className="icon fa-google"><span className="label">Gmail</span></a></li> */}
+            {/* <li><a href="https://github.com/makan12/"  className="icon fa-file"><span className="label">GitHub</span></a></li> */}
           </ul>
           {close}
         </article>
