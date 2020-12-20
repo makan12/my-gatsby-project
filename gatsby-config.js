@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -20,5 +21,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
   ],
+  pathPrefix: "/my-gatsby-project",
 }
 
