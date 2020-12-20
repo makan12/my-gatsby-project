@@ -1,19 +1,32 @@
-# gatsby-starter-dimension
+import React from 'react'
+import { Link } from 'gatsby'
 
-**This is a starter for Gatsby.js V2.**
+import Layout from '../components/layout'
+import S1 from '../images/s1.jpg'
 
-**The older V1 version of this starter can be found on the v1 branch:**
+const SoftwareProjects = () => (
+  <Layout>
+    <Link to="/"><i class="fa fa-home" aria-hidden="true"></i></Link>
+    <br></br>
+    <br></br>
+    <h1>Projects</h1>
+    <p>Below are some of Makan Janani's Web projects that highlight his various skills.</p>
+   
 
-Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
+    <div>
+    <h2><a href="http://www.smart-split.com/">SmartSplit</a></h2>
+      <img src={S1} alt="Capture" border="0"></img>
+     
+      <p>The application uses a modern micro-service infrastructure and has been deployed on a cloud-based linux machine. 
+          It helps in managing and analyzing my monthly budget and spending habits</p>
+      
+      
+    </div>
+    
+    
+    
+    <Link to="/">Go back to the homepage</Link>
+  </Layout>
+)
 
-## Preview
-
-https://gatsby-dimension.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-dimension https://github.com/codebushi/gatsby-starter-dimension`
-
-Run `gatsby develop` in the terminal to start the dev site.
+export default SoftwareProjects
