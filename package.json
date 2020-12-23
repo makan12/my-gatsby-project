@@ -12,6 +12,7 @@
     "gatsby-remark-embed-video": "^3.0.10",
     "gatsby-remark-phoneno-emailid-link": "^1.0.2",
     "gatsby-transformer-ffmpeg": "^0.3.8",
+    "gatsby-transformer-remark": "^2.13.0",
     "gatsby-video": "^0.2.0",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",

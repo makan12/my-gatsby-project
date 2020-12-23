@@ -9,6 +9,7 @@ module.exports = {
    
     {
       resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-transformer-remark`,
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
@@ -18,6 +19,12 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/myicon.png', // This path is relative to the root of the site.
       },
+      plugins: [
+        {
+          resolve: `gatsby-remark-phoneno-emailid-link`,
+         
+        }
+      ],
     },
     'gatsby-plugin-sass',
   ],

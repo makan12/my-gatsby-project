@@ -139,8 +139,8 @@ class Main extends React.Component {
             <li><a href="https://www.linkedin.com/in/makan-janani-b3629768/"  className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="https://bitbucket.org/korosh12/"  className="icon fa-bitbucket"><span className="label">Bitbucket</span></a></li>
             <li><a href="https://github.com/makan12/"  className="icon fa-github"><span className="label">GitHub</span></a></li>
-            {/* <li><a href="makan.janani@gmail.com" className="icon fa-google"><span className="label">Gmail</span></a></li> */}
-            {/* <li><a href="https://github.com/makan12/"  className="icon fa-file"><span className="label">GitHub</span></a></li> */}
+            <li><a href="mailto: makan.janani@gmail.com" className="icon fa-google"><span className="label">Gmail</span></a></li>
+            {/* <li><a href="https://github.com/makan12/"  className="icon fa-stripe"><span className="label">GitHub</span></a></li> */}
           </ul>
           {close}
         </article>
